@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <script type="text/javasccript" src="database.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="database" type="text/javasccript" src="database.js">
+    <link rel="database" type="text/javasccript" src="app.js">
+
+    <title>LoginPage</title>
+</head>
+<body>
+     <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign UP</h1>
+            <form id="loginForm" action="/login" method="POST">
+                <div class="inputgruop">
+                    <div class="inputfields" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" id="name">
+
+
+                    </div>
+                    <div class="inputfields">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="mail" placeholder="Email" id="username">
+
+
+                    </div>
+                    <div class="inputfields">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="password" placeholder="Password" id="password">
+                        
+
+                    </div>
+                    <p>Lost Password <a href='#'>click Here</a></p>
+                    <div class="btn">
+                        <button type="button" onclick="func()">Sign UP</button>
+                        <button type="button" class="disable" id="signin">Sign IN</button>
+                    </div>
+
+                </div>
+            </form>
+           
+        </div>
+
+     </div>
